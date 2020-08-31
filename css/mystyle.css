@@ -1,0 +1,311 @@
+*{
+	box-sizing: border-box; 
+}
+body{
+	padding: 20px;
+	overflow-x:hidden;
+}
+h1, h2, h3, h5, p{
+	font-family: 'Cairo', sans-serif;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9,55,244, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+/*style for nav logo*/
+div.container{
+	margin: 0px 0px;
+	max-width: 100%;
+	padding: 0px;
+}
+img.logo2{
+	height: 60px;
+	width: 150px;
+}
+/*style for button of navbar*/
+.navbar-toggler{
+	border: none;
+}
+
+/*style for first row grid image*/
+img.img-responsive{
+	max-height: 100%;
+	max-width: 100%;
+}
+/*style for grid par*/
+p.header-p{
+	background-image: url("../images/header-side.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 70px 0px;
+    margin: 10px;
+}
+/*style for who are we par*/
+p.who-we-are-p{
+	font-size: 20px;
+	margin: 50px;
+	padding: 30px;
+}
+.topic h1{
+    text-align: center;
+	font-size: 30px;
+	margin: 30px;
+	line-height: 10px;
+	text-decoration-color :#0099ff;
+	font-family: 'Cairo', sans-serif;
+}
+div.first-carousel{
+	max-width: 100%;
+	max-height: 100%;
+	padding: 60px;
+	background-image: url("../images/we-offer.png");
+	background-size: cover;
+}
+div.item-1{
+	margin: 20px;
+	max-width: 85%
+}
+div.item{
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	border-radius: 25px;
+}
+.first-carousel img{
+	padding: 10px 30px;
+	border-radius: 25px;
+	margin: 20px;
+}
+p.service{
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+}
+/*carousel topics*/
+h2{
+	text-align: center;
+	font-size: 20px;
+	color:#0099ff;
+}
+/*our works row decoration*/
+
+.card-p a{
+	text-align: center;
+	font-family: cairo;
+}
+div.card-body{
+	padding: 5px;
+}
+div.card-main{
+	 border-radius: 25px;
+	 margin: 20px;
+	 border: 1px ;
+	 padding: 0px 0px 15px 0px;
+	 box-shadow: 10px 10px 25px #595959;
+	 background-color: white;
+}
+/*images adjust*/
+img.work, img.link-img, img.work-link{
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+}
+.our-work, .work-link{
+    background-image: url("../images/bg30-Ar1web.gif");
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px 15px;
+	margin: 0px;
+}
+/*card box*/
+.box{
+	 border-radius: 25px;
+	 margin: 30px auto;
+	 border: 1px ;
+	 padding: 10px;
+	 box-shadow: 20px 20px 50px #595959;
+	 background-color: white;
+}
+/*second carouselstyle*/
+div.second-carousel{
+	background-image: url("../images/our-client-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15px;
+}
+div.item.company{
+	height: auto;
+	max-width: 80%;
+}
+.footer{
+    background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+a.social{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+div.logo-footer{
+	margin: 40px 10px;
+	display: inline-flex;
+	direction: rtl;
+}
+.ebdaa-p{
+	color: white;
+	font-size: 9px;
+}
+span.ebdaa{
+	padding: 8px;
+}
+h5{
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 10px;
+}
+.footer-title{
+	color: white;
+	font-size: 16px;
+}
+/*---------------------------articlt-------------------*/
+div.article{
+	max-width: 40%;
+	margin: auto;
+}
+/*style for all container*/
+.article-container{
+	background-image: url("../images/articles.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px 15px;
+}
+/*----------------one app----------------*/
+div.explain{
+	background-image: url("../images/details-bg.png");
+	text-align: center;
+	line-height: 40px;
+	padding: 50px;
+	margin: 20px 0px;
+}
+/*--------------------caresoul----------*/
+div.slider{
+	margin: 10px auto;
+}
+#slider-next i{
+	color: white;
+	font-weight: 800;
+	margin: 5px;
+
+}
+#slider-next{
+	margin: 5px;
+}
+#slider-prev{
+	margin: 5px;
+}
+#slider-prev i{
+	color: white;
+	font-weight: 800;
+	margin: 5px;
+
+}
+.div.card-carousel.one-app-carousel{
+	max-width: 100%;
+	height:auto;
+}
+/*------------------------pra-------------------------*/
+.pra-container{
+	background-image: url("../images/bg30-Ar1web.gif");
+	background-size: cover;
+	padding: 10px;
+}
+div.main-pra{
+	background-color: white;
+	width: 80%;
+	margin: 20px auto;
+	padding: 50px;
+	border-radius: 25px;
+	box-shadow: 20px 20px 50px #595959;
+}
+img.pra-img{
+	margin: 30px auto;
+	border-radius: 15px;
+	border: 1px ;
+	box-shadow: 10px 10px 30px #595959;
+}
+/*---------------------------link_1--------------------*/
+.pagination{
+	margin: 20px auto;
+}
+/*media query style*/
+@media only screen and (max-width: 900px) {
+    div.card.box{
+        width: 20rem;
+        }
+    div.card-main{
+        width: 14rem;
+    }
+    }
+    @media only screen and (max-width: 750px) {
+    p.header-p{
+        font-size: 25px;
+        font-weight: 300;
+        padding: 40px 0px;
+        margin: 10px;
+    }
+    p.who-we-are-p{
+        font-size: 15px;
+        margin: 30px;
+        padding: 20px;
+    }
+    p.pra-q{
+        font-size: 13px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    div.explain{
+        font-size: 13px;
+        line-height: 5px;
+        padding: 10px;
+    }
+    .card-p{
+        font-size: 15px;
+    }
+    div.card.box{
+        width: 15rem;
+        }
+        div.card-main{
+        width: 10rem;
+    }
+    a.btn.btn-secondary.btn-lg.active{
+        font-size: 0.8em;
+    }
+    }
+    @media only screen and (max-width: 500px) {
+    p.header-p{
+        font-size: 22px;
+        font-weight: 200;
+    }
+    p.who-we-are-p{
+        font-size: 15px;
+        margin: 30px;
+        padding: 20px;
+    }
+    div.logo-footer{
+        margin: 10px;
+    }
+    img.photo-footer{
+        max-height: 100px;
+    }
+    p.pra-q{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 17px;
+    }
+    }
+
