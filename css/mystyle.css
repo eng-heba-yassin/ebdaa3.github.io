@@ -93,23 +93,26 @@ h2{
 .card-p a{
 	text-align: center;
 	font-family: cairo;
+	margin: auto;
 }
 div.card-body{
 	padding: 5px;
 }
 div.card-main{
-	 border-radius: 25px;
+	
 	 margin: 20px;
 	 border: 1px ;
 	 padding: 0px 0px 15px 0px;
 	 box-shadow: 10px 10px 25px #595959;
 	 background-color: white;
+	border-radius: 25px;
 }
 /*images adjust*/
 img.work, img.link-img, img.work-link{
 	width: 100%;
 	height: auto;
-	border-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 }
 .our-work, .work-link{
     background-image: url("../images/bg30-Ar1web.gif");
@@ -246,7 +249,7 @@ img.pra-img{
         width: 20rem;
         }
     div.card-main{
-        width: 14rem;
+        width: 15rem;
     }
     }
     @media only screen and (max-width: 750px) {
@@ -269,7 +272,7 @@ img.pra-img{
     }
     div.explain{
         font-size: 13px;
-        line-height: 5px;
+        line-height: 20px;
         padding: 10px;
     }
     .card-p{
@@ -279,11 +282,21 @@ img.pra-img{
         width: 15rem;
         }
         div.card-main{
-        width: 10rem;
+        width: 12rem;
     }
     a.btn.btn-secondary.btn-lg.active{
         font-size: 0.8em;
-    }
+	}
+	div.second-carouse{
+		max-height: 80%;
+	}
+	div.item.company{
+		height: auto;
+		max-width: 65%;
+	}
+	div.footer-title, a.social{
+		font-size: 14px;
+	}
     }
     @media only screen and (max-width: 500px) {
     p.header-p{
